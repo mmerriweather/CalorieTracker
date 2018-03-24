@@ -1,3 +1,31 @@
-<p>
-  test1 works!
-</p>
+<form>
+  <div class="form-group calorie-form">
+    <label for="addfood">Add Food</label>
+    <input type="text" class="form-control" id="foods" placeholder="Add Food">
+  </div>
+  <div class="form-group">
+    <label for="add-calories">Add Calories</label>
+    <input type="text" class="form-control" id="calories" placeholder="Add Calories">
+  </div>
+  <div class="form-group">
+    <label for="add-date">Enter Date</label>
+    <input type="date" name="entry-date">
+  </div>
+<button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+<h3>Total Calories:
+  <span class="total-calories">0</span>
+</h3>
+
+
+<div class="well well-lg">
+  <ul id="entries-list" class="entries">
+    <li class="entries-item" id="item-0">
+      <strong>Eggs: </strong>
+      <em>300 Calories</em>
+      <a href="#" class="secondary-content">
+      </a>
+    </li>
+  </ul>
+</div>
